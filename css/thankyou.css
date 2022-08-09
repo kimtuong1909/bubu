@@ -1,0 +1,24 @@
+.thank{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+.thanks_header{
+    align-items: center;
+    display: inline-block;
+    font-size: 22px;
+    margin: 32px 0;
+}
+.thank_btn{
+    background-color: #000;
+    color: #fff;
+    padding: 24px 76px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+.thank_btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
