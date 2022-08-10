@@ -234,6 +234,7 @@ html{
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .category_img{
     width: 127px;
