@@ -172,3 +172,12 @@
     color: #ff0000;
     cursor: pointer;
 }
+.img_hover-1{
+    display: none;
+}
+.product_new:hover .img_hover{
+    display: none;
+}
+.product_new:hover .img_hover-1{
+    display: block;
+}
