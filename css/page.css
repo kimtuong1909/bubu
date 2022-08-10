@@ -164,3 +164,11 @@
 .product_new:hover .product_new-2{
     display: block;
 }
+.fa-heart{
+    animation-name: example;
+    animation-duration: 5s;
+}
+.fa-heart:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
