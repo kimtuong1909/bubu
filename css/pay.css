@@ -79,9 +79,15 @@
 }
 .btn_accpet{
     width: 100%;
-    
+    background-color: #117369;
 }
 .btn_accpet:hover{
-    opacity: 0.8;
+    color: #FBB314;
     cursor: pointer;
+}
+.save{
+    background-color: #117369;
+}
+.save:hover{
+    color: #FBB314;
 }

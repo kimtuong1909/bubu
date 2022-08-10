@@ -52,6 +52,9 @@
     padding: 12px 12px;
     margin-right: 8px;
     margin-bottom: 8px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .color{
     display: flex;
@@ -164,20 +167,40 @@
 .product_new:hover .product_new-2{
     display: block;
 }
-.fa-heart{
-    animation-name: example;
-    animation-duration: 5s;
-}
-.fa-heart:hover{
-    color: #ff0000;
-    cursor: pointer;
-}
+
 .img_hover-1{
     display: none;
+    animation-name: example;
+    animation-duration: 2s;
 }
-.product_new:hover .img_hover{
+.change:hover .img_hover{
     display: none;
 }
-.product_new:hover .img_hover-1{
+.change:hover .img_hover-1{
     display: block;
+}
+.change-1:hover .after{
+    display: none;
+}
+.change-1:hover .before{
+    display: block;
+    
+}
+.before{
+    display: none;
+    cursor: pointer;
+}
+.heart{
+    color: #FF0000;
+}
+.check_2,
+.check_3,
+.check_4,
+.check_5,
+.check_6,
+.check_7,
+.check_8,
+.check_9,
+.check_10{
+    color: #fff;
 }

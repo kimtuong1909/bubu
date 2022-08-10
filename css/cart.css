@@ -152,14 +152,14 @@
 }
 .btn_pay{
     color: #fff;
-    background-color: #000;
+    background-color: #117369;
     width: 100%;
     padding: 8px 0;
     margin-bottom: 8px;
 }
 .btn_pay:hover{
     cursor: pointer;
-    opacity: 0.8;
+    color: #FBB314;
 }
 .pay_p{
     font-size: 12px;

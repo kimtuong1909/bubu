@@ -59,9 +59,12 @@
     padding:18px 0;
     margin-bottom: 64px;
     color: #fff;
-    background-color: #000000;
+    background-color: #117369;
     font-size:20px;
     font-weight:750;
+}
+.login_input-1:hover{
+    color: #FBB314;
 }
 .login_button{
     display:flex;
@@ -71,6 +74,9 @@
     background-color: #FEFDFD;
     border: 1px solid #707070;
     font-weight: 700;
+}
+.login_button:hover{
+    background-color: #DBDBDB;
 }
 .text_color{
     color: #0F4EFD;

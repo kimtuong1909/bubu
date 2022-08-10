@@ -73,6 +73,35 @@ html{
     align-items: center;
     width: 95%;
 }
+.navbar_list-item{
+    position: relative;
+}
+.subnav{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #D9DCE2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 4;
+}
+.subnav li a{
+    padding: 6px 24px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    width: 100%;
+}
+.subnav li a:hover{
+    color: #117369;
+    background-color: #fff;
+}
+.navbar_list-item:hover .subnav{
+    display: block;
+}
+.subnav_text{
+    min-width:180px;
+
+}
 .navbar_list{
     list-style: none;
     display: flex;
@@ -82,6 +111,7 @@ html{
     color: #222222;
     padding: 0 10px;
 }
+
 .navbar_list-link:hover{
     opacity:0.8;
 }
@@ -90,6 +120,7 @@ html{
     margin-right: 5%;
 
 }
+
 .navbar_search{
     display: flex;
 }
