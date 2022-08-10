@@ -157,6 +157,10 @@
     padding: 8px 0;
     margin-bottom: 8px;
 }
+.btn_pay:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 .pay_p{
     font-size: 12px;
 }
