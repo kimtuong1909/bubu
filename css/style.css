@@ -118,6 +118,31 @@ html{
 .music:hover .icon_subnav{
     display: block;
 }
+.subnav_2{
+    display: none;
+    position: absolute;
+    background-color: #D9DCE2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 4;
+
+}
+.subnav_ul{
+    list-style: none;
+}
+.subnav_text_2{
+    padding: 6px 24px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    width: 100%;
+}
+.subnav_text_2:hover{
+    color: #117369;
+    background-color: #fff;
+}
+.navbar__list-item:hover .subnav_2{
+    display: block;
+}
 .subnav{
     display: none;
     position: absolute;
