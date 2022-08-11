@@ -59,6 +59,7 @@ html{
     padding: 0 5px;
     height:28px;
     width: 28px;
+    margin-left: 12px;
 }
 .logo_bubu{
     position: relative;
@@ -75,6 +76,47 @@ html{
 }
 .navbar_list-item{
     position: relative;
+}
+.header_logo_icon{
+    display: flex;
+}
+.icon_link{
+    position: relative;
+    text-decoration:none;
+}
+.icon_link:hover{
+    background-color: #fff;
+}
+.avatar:hover{
+    background-color: #fff;
+}
+.music:hover{
+    background-color: #fff;
+}
+.icon_subnav{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 4;
+}
+.icon_subnav_link{
+    padding: 8px 24px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    width: 100%;
+}
+.icon_subnav li a:hover{
+    color: #117369;
+    background-color: #fff;
+}
+.avatar:hover .icon_subnav{
+    display: block;
+}
+.music:hover .icon_subnav{
+    display: block;
 }
 .subnav{
     display: none;
@@ -375,9 +417,7 @@ html{
 .good{
     min-height:340px;
 }
-.icon_link{
-    text-decoration:none;
-}
+
 .fixed{
     text-align: center;
     position: fixed;
