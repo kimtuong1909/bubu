@@ -156,6 +156,7 @@ html{
 
 .navbar_list-link:hover{
     opacity:0.8;
+    color: #117369;
 }
 .header_navbar_list{
     margin-left: 5%;
